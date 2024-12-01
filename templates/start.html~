@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Gradient</title>
+    <style>
+        html{
+            height: 100vh;
+        }
+        body {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            margin: 0;
+            height: 100%;
+            background: linear-gradient(to bottom, #38E1D0, #0CA0B1, #00598C);
+
+        }
+        .start_shopping{
+            position: absolute;
+            bottom: 10%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: none;
+            outline: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            height: 7vh;
+            background: transparent;
+            border: solid thin #003d61c8;
+            color: aliceblue;
+
+        }
+        .developer_logo{
+            position: absolute;
+            bottom: 3%;
+            right: 3%;
+        }
+    </style>
+</head>
+<body>
+    <img src="edited.png" height="200px" width="200px" alt="register">
+    <button class="start_shopping">Start Shopping</button>
+    <img class="developer_logo" src="logo_trial.png" height="40px" width="60px" alt="register">
+</body>
+</html>
